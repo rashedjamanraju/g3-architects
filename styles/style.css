@@ -6,8 +6,144 @@
     text-decoration: none;
     color: #727272;
 }
+
+/* image */
+img{
+    display: block;
+    width: 100%;
+}
+
+/* Typography */
+.description-primary{
+    color: #727272;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.title-primary{
+    color: #131313;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.banner-title{
+    color:#131313;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.orange-text{
+    color: #FF900E;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* Buttons */
+.btn-primary{
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 21px 24px 20px 25px;
+    border: none;
+    border-radius: 8px;
+    background: #FF900E;
+    cursor: pointer;
+    margin-top: 32px;
+}
+.nav-btn{
+    color:#424242;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 144.444% */
+    
+}
+
+/* container */
 .container{
     width: 75%;
     max-width: 1440px;
     margin-inline: auto;
+}
+
+/* header style */
+header{
+    background-color: rgba(255, 144, 14, 0.10);
+    padding-bottom: 45px;
+}
+
+/* navigation styles*/
+.navigation{
+    padding-block: 50px;
+}
+.navigation nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+/* banner styles*/
+.banner{
+    text-align: center;
+}
+
+.banner .banner-title,.banner .banner-description{
+    max-width: 868px;
+    margin-inline: auto;
+}
+
+
+.banner-img{
+    margin-top: 50px;
+}
+
+/* main section */
+.featured{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 85px;
+    gap: 73px;
+}
+.featured-text{
+    max-width: 537px;
+}
+.featured-title{
+    color:#727272;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+.featured-gallary{
+    max-width: 708px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.featured-image{
+    width: 342px;
 }
