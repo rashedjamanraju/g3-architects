@@ -52,7 +52,25 @@ img{
     font-weight: 700;
     line-height: normal;
 }
-
+.fywe-primary{
+    color:#131313;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.fywe-information{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 20px;
+}
+.fywe-info{
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px 0px 30px 30px;
+}
 /* Buttons */
 .btn-primary{
     color: #FFF;
@@ -147,6 +165,33 @@ header{
 }
 .featured-image{
     width: 342px;
+}
+.fywe{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 130px;
+    border-radius: 8px;
+}
+.fywe-text{
+    max-width: 586px;
+}
+.fywe-image{
+    max-width: 708px;
+}
+.fywe-title{
+    border-left: 5px solid #FF900E;
+    padding-left: 21px;
+    color:#131313;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 39px;
+}
+.fywe-heading > p{
+    margin-top: 24px;
+    margin-bottom: 30px;
 }
 
 @media  screen and (max-width:576px) {
