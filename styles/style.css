@@ -137,6 +137,8 @@ header{
 }
 
 /* main section */
+
+/* featured styles */
 .featured{
     display: flex;
     align-items: center;
@@ -166,6 +168,8 @@ header{
 .featured-image{
     width: 342px;
 }
+
+/* fywe styles */
 .fywe{
     display: flex;
     justify-content: space-between;
@@ -278,6 +282,7 @@ header{
     max-width: 166.756px;
 }
 
+/* footer styles */
 footer{
     border-radius: 8px;
     background: #FFF4E7;
